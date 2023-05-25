@@ -1,0 +1,262 @@
+body {
+    background-color: #141f1f;
+    color: darkgrey;
+    background-image: url(half_moon.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 22%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_title {
+    float: left;
+    width: 30%;
+    padding-top: 2em;
+}
+
+.header_title a{
+    text-decoration: none;
+}
+
+.header_title h1 {
+    color: #cc3300;
+}
+
+.legenda {
+    margin-top: -22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:14px;
+}
+
+.header_links ul {
+    font-size: 12px;
+    list-style-type: none;
+    overflow: hidden;
+    height: 8em;
+    margin-top: -1em;
+    padding-right:4em;
+}
+
+.header_links li a {
+    color: white;
+    padding: 70px 16px;
+    text-decoration: none;
+    float: right;
+    display: block;
+    text-align: left;
+}
+
+.header_links li a:hover {
+    background-color: red;
+}
+
+.active {
+    background-color: red;
+}
+
+main {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    
+}
+
+.posts {
+    float: left;
+    width: 61%;
+    text-align: justify;
+    margin-bottom:5em;
+    
+}
+
+.menu_pesquisa {
+    float: right;
+    width: 25%;
+    padding-top:1em;
+    padding-right:4em;
+}
+
+.menu_pesquisa li {
+    list-style-type: none;
+    line-height: 3em;
+    font-size: x-small;
+}
+
+.links_laterais {
+    padding-left: 13px;
+    font-size: small;
+}
+
+.links_laterais li a {
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    color:  darkgrey;
+}
+
+#Arquivos a {
+    text-decoration: none;
+    pointer-events: none;
+}
+
+
+.links_laterais a:hover {
+    color:  #cc3300;
+    overflow:auto;
+    text-decoration: underline;
+}
+
+.posts h2 a {
+    color: #cc3300;
+    font-size: 26px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#texto {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size:x-small;  
+}
+
+#texto a {
+    text-decoration: none;
+}
+
+.menu_pesquisa p {
+    font-size: x-small;
+}
+
+#texto strong {
+    color: #cc3300
+}
+
+.moretwo p:nth-child(1) {
+    float: left;
+}
+
+.moretwo p:nth-child(2) {
+    float: right;
+}
+
+.moretwo {
+    margin-bottom: 4em; 
+}
+
+.moretwo a {
+    color: white;
+    word-spacing: 3em;
+    text-decoration: none;
+    margin-left: 2em;
+   
+    font-size: small;
+    
+}
+
+.two p {
+    margin-top: -18px;
+    display: inline-block;
+    font-size: small;
+}
+
+.two p:nth-child(1) {
+    float: left;
+}
+
+.two p:nth-child(2) {
+    float: right;
+}
+
+.menu_pesquisa h3 {
+    color: #cc3300
+}
+
+footer {
+    clear: both;
+    font-size: x-small;
+    background-color: #2c2c2c;
+    margin-left: -1em;
+    margin-right: -1em;
+    padding-bottom: 4em;
+}
+
+.rodape {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    line-height: 18px;
+    padding-right: 50px;
+}
+
+.rodape h4 {
+    color: white;
+    font-size:200%;
+    
+}
+
+#bem_vindos {
+    float: left;
+    width: 33%;
+}
+
+#agradecimentos {
+    float: left;
+    width: 33%;
+    margin-left:30px
+}
+
+#ligacoes_recomendadas {
+    float: right;
+    width: 33%;
+    margin-left:30px;
+}
+
+#ligacoes_recomendadas h4{
+    margin-bottom:16px;
+}
+
+#ligacoes_recomendadas li p {
+    color: #cc3300;
+    
+}
+#ligacoes_recomendadas ul {
+    line-height: 8px;
+    overflow: hidden;
+    padding-top:4px;
+    
+}
+
+#ligacoes_recomendadas a{
+    text-decoration: none;
+    pointer-events: none;
+
+}
+
+
+.two strong a {
+    color: #cc3300;
+}
+
+.two a {
+    text-decoration: none;
+}
+
+.direitos {
+    text-align:center;
+    font-size: xx-small;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+tag {
+    color: black;
+}
+

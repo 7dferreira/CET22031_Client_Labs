@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="stylesheet" href="formulario.css">
+    <script type="module" src="formulario.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <div class="caixa1">
+                <div class="imagem1" ><img src="icons8-soccer-50.png" alt="table">
+                    <div class="torneio" id="bola"><span class="break1">TORNEIO<span class="break1"> DE FUTEBOL</span>
+                        <div class="legenda">Prémios até ao 10º lugar
+                            <div class="btn">   
+                                <button type="button" id="regulamento" 
+                                    onclick="verificaResultado();"
+                                    >Regulamento
+                                </button>    
+                                <button type="button" id="regulamento" 
+                                    onclick="verificaResultado();"
+                                    >Membros
+                                </button>
+                            </div>
+                        </div>     
+                    </div>                 
+                </div>     
+            </div>
+                <div class="caixa2">
+                    <div id="imagem2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-pencil" viewBox="0 0 19 12">
+                            <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                        </svg>
+                    </div>
+                    <div class="teste">
+                        <div id="titulo2"><h3>INSCREVA-SE AQUI</h2></div>
+                        <div class="inputs">
+                            <form id = "submit" class="form-floating" method = "post">
+                                <div class="coluna1">
+                                    <label for="nome">Nome completo </label>
+                                    <label for="endereco">Email </label>
+                                    <label for="tel">Telefone </label> 
+                                    <label for="data">Data de nascimento </label>  
+                                    <label for="senha">Senha </label>
+                                    <label for="2senha">Senha de novo </label>
+                                    <label for="nivel">Nivel </label>
+                                </div>
+                                <div class="coluna2">
+                                    <span id="icon3">
+                                        <input type="text" class="form-control" id="nome" placeholder="Nome completo" >
+                                        <img src="icons8-close-48.png" id="imagem3" class="invalid">
+                                    </span><br>
+                                    <span id="icon3">
+                                        <input type="text" class="form-control" id="endereco" placeholder="Email">
+                                        <img src="icons8-close-48.png" id="imagem4" class="invalid">
+                                    </span><br>
+                                    <span id="icon3">
+                                        <input type="text" class="form-control" id="tel" placeholder="Telefone">
+                                        <img src="icons8-close-48.png" id="imagem5" class="invalid">
+                                    </span><br>
+                                    <span id="icon3">
+                                        <input type="text" class="form-control" id="data" placeholder="Data de nascimento">
+                                        <img src="icons8-close-48.png" id="imagem6" class="invalid">
+                                    </span><br>
+                                    <span id="icon3">
+                                        <input type="password" class="form-control" id="senha" placeholder="Senha">
+                                        <img src="icons8-close-48.png" id="imagem7" class="invalid">
+                                    </span><br>
+                                    <span id="icon3">
+                                        <input type="password" class="form-control" id="2senha" placeholder="Senha de novo">
+                                        <img src="icons8-close-48.png" id="imagem8" class="invalid">
+                                    </span><br>
+                                    <span id="icon3">
+                                        <select class="form-control" id="escalao" name="escalao" placeholder="Nível">
+                                            <option value="Iniciado">Iniciado</option>
+                                            <option value="Intermédio">Intermédio</option>
+                                            <option value="Avançado">Avançado</option>
+                                            <option value="Pré-profissional">Pré-profissional</option>
+                                            <option value="Profissional">Profissional</option>
+                                        </select>    
+                                    </span>
+                                    <br>
+                                    <div class="politicas"> 
+                                        <span id="icon3">  
+                                            <input type="checkbox" value="check" id="politica">
+                                            <p>Li e concordo com  a <a href="#"><strong>Politica de privacidade</strong></a>.</p>
+                                        <img src="icons8-close-48.png" id="imagem9" class="invalid" ></span>
+                                    </div>
+                                </div>    
+                            </form>      
+                        </div>     
+                    </div>
+                    <div class="container1">
+                        <div class="btn2">   
+                            <button type="submit" form = "submit" class="submeter" id = "submeter">
+                            Submeter</button>
+                            <button type="reset" form = "submit" class="submeter" 
+                            >Limpar</button>
+                        </div>               
+                    </div>  
+                </div>
+        </div>
+    </body>
+</html>

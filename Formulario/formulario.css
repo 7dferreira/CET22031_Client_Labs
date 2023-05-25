@@ -1,0 +1,373 @@
+
+body { 
+    color: #4a4a4a;
+    background-image: url(hardware.jpg);
+    background-position: stretch;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+    position: absolute;
+    place-content: center;
+    width: calc(100% - 40px);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+    
+
+.container {
+    display: flex;
+    height: 540px;
+    margin: 0 auto;
+    width: 750px;
+    align-items: center;
+}
+
+.caixa1 {
+  color: white;
+  height: calc(100% - 40px);
+  position: relative;
+  width: 50%;
+  line-height: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+img {
+  margin: auto;
+  display: block;
+
+}
+
+#bola {
+  font-size:28px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 10px;
+  font-weight: 600;
+  
+}
+
+.legenda {
+  text-align:center;
+  font-size: small;
+  line-height: 5px;
+  margin-top: 18px
+
+}
+
+.caixa2 {
+  background-color: rgba(0,0,0,0.5);
+  color: #F1F1F2;
+  position: relative;
+  width: 52%;
+  padding: 3%;
+  height: calc(100% - 60px);
+  
+}
+
+.container1 {
+  margin-top: -20px;
+  width: 185px;
+}
+
+#titulo2 {
+  margin-left: 30px;
+  margin-top: -20px;
+  
+}
+
+.bi {
+  padding-left: 0;
+  float: left;
+}
+
+h2 {
+  text-align: left;
+}
+
+.btn {
+  display: flex;
+  margin-left: 10px;  
+
+}
+
+.btn2 {
+  
+  opacity: unset;
+}
+
+.btn :hover{
+  background-color: aquamarine;
+  border: 2px solid aquamarine;
+}
+
+.btn2 :hover{
+  background-color: aquamarine;
+  border: 2px solid aquamarine;
+}
+
+button[type="button"] {
+	
+    margin-right:10px;
+    height: 2.4em;
+    width: 10em;
+    font-weight: 700;
+    margin-top: 20px;
+    border: 2px solid #2c96dc;
+    border-radius: 6px;
+    background: #2c96dc;;
+    color:white; 
+    cursor: auto;
+}
+
+
+button[type="submit"], button[type="reset"]  {
+	
+  height: 30px;
+  width: 195%;
+  border: 2px solid #2c96dc;
+  border-radius: 6px;
+  background: #2c96dc;
+  color:white; 
+  cursor: auto;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.form-control {
+  
+  float:right; 
+  border: none;
+  border-bottom: 2px solid white;
+  box-shadow: 0;
+  background: transparent;
+  display: flex;
+  width:98%;
+  height: 30px;
+  outline: 0;
+}
+
+input[type="text"] {
+  color:white
+}
+
+input[type="password"] {
+  color:white
+}
+
+.break1 {
+  position: relative;
+  left:6px
+}
+
+.form-floating {
+  font-size: medium;
+  line-height:44px;
+  display: flex;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+label[for="nome"]::after {
+  content: "*";
+  color:red;
+}
+
+label[for="endereco"]::after {
+  content: "*";
+  color:red;
+}
+
+label[for="senha"]::after {
+  content: "*";
+  color:red;
+}
+
+label[for="2senha"]::after {
+  content: "*";
+  color:red;
+}
+
+input::placeholder {
+  opacity: 0;
+  
+} 
+
+#icon3 {
+  
+  float: right;
+  position: relative;
+  display: flex;
+  width:100%;
+
+}
+
+.invalid {
+ 
+ width:8%;
+ height: auto;
+ display:none;
+}
+
+.valid {
+ width:8%;
+ height: auto;
+ display: block;
+}
+
+#imagem9{
+  width:6%;
+  height: auto
+}
+
+.coluna1 {
+  height: calc(100% - 200px);
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.coluna2 {
+  
+  position: relative;
+  place-content: center;
+  width: calc(100% - 100px);
+  justify-content: space-between;
+}
+
+strong {
+  color:#2c96dc;
+  text-decoration:underline;
+}
+
+
+option {
+  background:#e4e3e3;
+  color: black;
+  font-weight: 550;
+}
+
+#escalao {
+  color: white;
+}
+.politicas {
+  margin-left: -120px;
+  font-size: small;
+}
+
+@media (max-width: 900px) {
+  .container {
+    height:540px;
+  }
+  .break1 span {
+    display: block;
+    text-align: center;  
+}
+  .btn {
+    display:flex;
+    flex-direction: column;
+  }       
+}
+
+@media (max-width: 750px) {
+  .container {
+    height:540px;
+  }
+
+  input::placeholder {
+    opacity: 2;
+    color:white
+  } 
+  
+  .coluna2 {
+    width: 90%;
+  
+  }
+
+  .form-floating {
+    line-height:6px;
+    font-size: medium;
+    padding-left: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn2 {
+    width:139px
+  }
+
+  .caixa2 {
+    width: 275px;
+  }
+
+  .form-floating{
+    line-height:44px
+  }
+
+  .politicas {
+    margin-left: -15px;
+  }
+  
+  input::placeholder {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: left;
+  }
+  label {
+      color: transparent;
+      display: none;
+  }
+  label a {
+      color: white;
+  }
+
+  #icon3 {
+    font-size: x-small;
+  }
+  strong {
+    color: #2c96dc;
+    text-decoration:underline;
+  }
+  }
+
+@media (max-width: 550px) {
+  .container {
+    flex-flow: row wrap;
+    height: 530px;
+    width: 320px;
+    justify-content: space-around;
+  }
+  .caixa1 {
+    width: calc(100% - 5px);
+    max-height: 300px;
+    top: -140px
+  }
+
+  .caixa2 {
+
+    top: -190px;
+    height: 490px;
+  }
+  
+  .btn {
+    flex-direction: row;
+    margin-left: -1px;
+}
+
+  .btn2 {
+    width:139px
+}
+
+  .break1 span {
+    display:inline;
+}
+}
